@@ -62,3 +62,5 @@ desktop.ini
 *.tmp
 *.swp
 *.swoMiniforge3-Linux-x86_64.sh
+Miniforge3-Linux-x86_64.sh
+*.sh.bak
