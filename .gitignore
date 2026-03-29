@@ -1,0 +1,64 @@
+# =========================
+# Python / Conda
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+*.log
+
+# Conda environments
+.env/
+env/
+venv/
+*.conda
+*.tar.bz2
+
+# Miniforge / Miniconda installers
+Miniforge3-Linux-x86_64.sh
+Miniconda*.sh
+
+# =========================
+# Jupyter / Notebooks
+# =========================
+.ipynb_checkpoints/
+*.ipynb
+*.nbconvert.ipynb
+
+# =========================
+# Data / Outputs
+# =========================
+data/
+*.fasta
+*.fastq
+*.bam
+*.sam
+*.vcf
+*.txt
+*.tsv
+*.csv
+
+# Large generated files (optional, keep in data folder)
+*.hdf5
+*.h5
+*.rds
+
+# =========================
+# System / OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs / Temporary
+# =========================
+*.log
+*.tmp
+*.swp
+*.swoMiniforge3-Linux-x86_64.sh
