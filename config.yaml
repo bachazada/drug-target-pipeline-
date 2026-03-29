@@ -1,0 +1,58 @@
+# ============================================================
+# drug_target_pipeline — central configuration
+# Edit this file to change any parameter across the pipeline
+# ============================================================
+
+# ── Organism ──────────────────────────────────────────────
+organism:
+  name: "Klebsiella pneumoniae"
+  uniprot_taxon_id: "272620"          # K. pneumoniae MGH 78578
+  uniprot_proteome_id: "UP000006584"  # reviewed proteome ID
+  short_name: "kpneumoniae"
+
+# ── Data paths ────────────────────────────────────────────
+paths:
+  raw_proteome:       "data/proteome.fasta"
+  essential_genes:    "data/essential_genes.txt"
+  filtered_targets:   "results/filtered_targets.fasta"
+  features:           "data/features.csv"
+  target_scores:      "results/target_scores.csv"
+  structures_dir:     "results/structures/"
+  pockets_dir:        "results/pockets/"
+  docking_dir:        "results/docking/"
+  model:              "models/model.pkl"
+
+# ── Filtering parameters (Week 2) ─────────────────────────
+filtering:
+  blast_evalue: 1e-5          # e-value cutoff for human homolog removal
+  blast_identity: 30          # % identity cutoff (below = not human homolog)
+  min_protein_length: 50      # remove very short sequences
+  max_protein_length: 2000    # remove very large proteins (hard to dock)
+
+# ── ML parameters (Week 4) ────────────────────────────────
+ml:
+  model_type: "random_forest"   # options: random_forest, xgboost
+  n_estimators: 200
+  max_depth: 10
+  test_size: 0.2
+  random_seed: 42
+  cv_folds: 5
+  top_n_targets: 20             # how many top targets to take to structure step
+
+# ── Structure prediction (Week 5) ────────────────────────
+structure:
+  top_n_for_structure: 20
+  colabfold_model: "alphafold2_ptm"
+  min_plddt: 70.0               # minimum confidence score to keep structure
+
+# ── Docking parameters (Week 7) ──────────────────────────
+docking:
+  exhaustiveness: 8             # AutoDock Vina exhaustiveness (8 = default)
+  num_modes: 9                  # number of binding modes to generate
+  energy_range: 3               # kcal/mol range for output modes
+  top_n_for_docking: 10         # proteins to dock
+
+# ── Dashboard (Week 9) ───────────────────────────────────
+dashboard:
+  port: 8501
+  title: "Drug Target Discovery — K. pneumoniae"
