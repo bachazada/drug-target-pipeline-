@@ -64,3 +64,10 @@ desktop.ini
 *.swoMiniforge3-Linux-x86_64.sh
 Miniforge3-Linux-x86_64.sh
 *.sh.bak
+data/human_proteome.fasta
+data/human_proteome_db.*
+data/query_targets.fasta
+results/docking/*.pdbqt
+/tmp/
+tools/
+*.tar.gz
