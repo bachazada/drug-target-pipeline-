@@ -1,0 +1,14 @@
+gene,n_pockets,best_pocket_score,best_pocket_prob,best_pocket_size,center_x,center_y,center_z,status,gene_clean,gene_ml,druggability_score,priority,mean_plddt,pct_confident,composite_score,final_rank
+7_murC,8,62.75,0.985,333,0.0106,1.0787,-3.3135,p2rank,murC,murC,0.7796,Priority 1 (high),92.65,95.3,0.8935,1
+6_murA,3,43.72,0.955,176,-1.854,4.8829,1.1491,p2rank,murA,murA,0.7841,Priority 1 (high),96.82,99.8,0.7995,2
+11_groEL,6,42.26,0.952,112,1.0798,1.6342,0.1879,p2rank,groEL,groEL,0.7519,Priority 1 (high),94.8,98.7,0.7735,3
+3_metG,5,35.27,0.932,172,7.4065,-3.4903,-4.5624,p2rank,metG,metG,0.8019,Priority 1 (high),93.46,97.9,0.7511,4
+9_gyrB,15,34.12,0.924,131,7.3354,23.9796,-3.9502,p2rank,gyrB,gyrB,0.7581,Priority 1 (high),88.89,95.5,0.7158,5
+2_pheT,10,24.13,0.85,118,15.2519,4.0532,-23.728,p2rank,pheT,pheT,0.8064,Priority 1 (high),94.49,99.7,0.6934,6
+4_fabl,3,28.08,0.887,115,2.9395,-5.0313,-8.2785,p2rank,fabl,,,,96.28,98.1,0.6573,7
+8_gyrA,12,19.0,0.765,81,9.0285,2.6733,1.2377,p2rank,gyrA,gyrA,0.766,Priority 1 (high),87.45,89.6,0.631,8
+5_rpsC,2,13.27,0.597,120,0.5515,-0.4802,-6.2798,p2rank,rpsC,rpsC,0.7864,Priority 1 (high),89.67,90.9,0.6128,9
+1_ftsl,4,22.13,0.822,126,-11.474,0.1888,22.3371,p2rank,ftsl,,,,90.87,93.4,0.6106,10
+13_secA,15,14.59,0.645,101,9.6953,-15.4083,-10.0058,p2rank,secA,secA,0.7466,Priority 2 (medium),87.6,92.5,0.599,11
+10_era,6,10.09,0.466,58,0.2596,-5.1789,4.499,p2rank,era,era,0.7564,Priority 1 (high),91.4,95.7,0.5873,12
+12_rpsD,2,6.2,0.257,67,1.5504,7.4361,-2.7572,p2rank,rpsD,rpsD,0.7515,Priority 1 (high),93.47,99.5,0.5689,13

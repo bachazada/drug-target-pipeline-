@@ -1,0 +1,35 @@
+# Pipeline Complete
+Generated: 2026-04-11 12:17
+
+## Summary
+- Organism:          Klebsiella pneumoniae (UP000000265)
+- Proteome:          5,126 proteins
+- After filtering:   95 drug target candidates
+- Priority 1 (ML):  13 targets
+- Structures:        14 (pLDDT ≥ 87.5)
+- Pockets:           13 (P2Rank with AlphaFold config)
+- Docked:            8 real Vina results
+
+## Top 3 validated targets
+gene  final_score  best_affinity
+gyrB       0.7911          -2.42
+murA       0.7642          -4.42
+murC       0.6803          -7.80
+
+## Best docking result
+Gene:      ftsl
+Ligand:    ampicillin
+Affinity:  -8.36 kcal/mol
+Reference: -6.5 kcal/mol
+
+## Tools used
+- UniProt REST API     (data)
+- BLAST 2.14           (homolog filtering)
+- scikit-learn RF      (ML druggability)
+- ColabFold/AlphaFold2 (structure prediction)
+- P2Rank 2.4           (pocket detection)
+- AutoDock Vina        (molecular docking)
+- Snakemake            (workflow)
+
+## Next step
+    streamlit run app.py

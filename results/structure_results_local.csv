@@ -1,0 +1,14 @@
+gene,pdb_file,length_aa,mean_plddt,pct_confident,pct_disordered,plddt_status,proceed_to_docking
+6_murA,6_murA.pdb,419,96.82,99.8,0.0,very_high,True
+4_fabl,4_fabl.pdb,262,96.28,98.1,0.0,very_high,True
+11_groEL,11_groEL.pdb,318,94.8,98.7,0.0,very_high,True
+2_pheT,2_pheT.pdb,795,94.49,99.7,0.0,very_high,True
+12_rpsD,12_rpsD.pdb,206,93.47,99.5,0.0,very_high,True
+3_metG,3_metG.pdb,677,93.46,97.9,0.9,very_high,True
+7_murC,7_murC.pdb,491,92.65,95.3,3.1,very_high,True
+10_era,10_era.pdb,301,91.4,95.7,0.3,very_high,True
+1_ftsl,1_ftsl.pdb,588,90.87,93.4,4.8,very_high,True
+5_rpsC,5_rpsC.pdb,232,89.67,90.9,5.2,high,True
+9_gyrB,9_gyrB.pdb,804,88.89,95.5,1.5,high,True
+13_secA,13_secA.pdb,901,87.6,92.5,2.4,high,True
+8_gyrA,8_gyrA.pdb,877,87.45,89.6,6.8,high,True
