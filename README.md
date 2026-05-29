@@ -1,5 +1,8 @@
 # AI-Assisted Drug Target Discovery Pipeline
 
+[![Live Demo](https://img.shields.io/badge/🧬_Live_Demo-Streamlit-red?style=for-the-badge)](https://wahtdgsdjcgaixksejtvig.streamlit.app)
+
+
 **Author:** Bacha Zada — M.Sc. Computational Biology & Bioinformatics, University of Göttingen  
 **Target organism:** *Klebsiella pneumoniae* (ATCC 43816 / MGH 78578)  
 **Goal:** Rank and validate drug targets using ML + structural biology + molecular docking
